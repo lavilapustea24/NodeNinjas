@@ -80,7 +80,7 @@ h3 { font-size: 1.3rem; }
 /* Carduri echipă: hover simplu, ușor de personalizat ulterior */
 .team-grid { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 18px; }
 .member-card { --card-accent:#ce9bff; position: relative; overflow: hidden; border-radius: 24px; padding: 22px; min-height: 350px; background: var(--panel); border: 1px solid var(--line); transition: transform .22s, border-color .22s, box-shadow .22s; }
-.member-card:hover { transform: translateY(-12px); border-color:#c084fc; box-shadow: 0 12px 35px rbba(192, 132, 252, 0.45); }
+.member-card:hover { transform: translateY(-12px); border-color:#c084fc; box-shadow: 0 12px 35px rgba(192, 132, 252, 0.45); }
 .member-one { --card-accent:#d6a1ff; } .member-two { --card-accent:#ff95c7; } .member-three { --card-accent:#9adbd8; } .member-four { --card-accent:#f3b6eb; }
 .member-top { display: flex; justify-content: space-between; align-items: center; }
 .member-number { color: var(--muted); font-size: .68rem; font-weight: 900; letter-spacing: .13em; }
