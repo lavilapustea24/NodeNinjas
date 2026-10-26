@@ -69,10 +69,17 @@ Au fost discutate elementele HTML5 semantice, folosirea Flexbox și CSS Grid, ad
 ### 5. Personalizarea manuală
 
 Efectul hover pentru cardurile din secțiunea **Meet the Team** a fost modificat manual în `style.css` pentru a ridica ușor cardurile și a afișa o umbră violet luminoasă. Această modificare a fost realizată de studentă, nu aplicată automat de AI în fișierele sale locale.
+În cadrul personalizării manuale am modificat efectul `hover` al celor patru carduri din secțiunea **Meet the Team**, folosind proprietățile CSS `transform`, `border-color` și `box-shadow`. Cardurile se ridică cu 12 pixeli și afișează o umbră violet luminoasă atunci când utilizatorul trece cu mouse-ul peste ele.
+
+În timpul verificării am identificat o greșeală de scriere a funcției `rgba()` (scrisă inițial `rbba()`), care împiedica afișarea umbrei. Am corectat eroarea și am verificat funcționarea efectului în browser.
 
 ### 6. Testarea confirmată
 
-Site-ul a fost deschis din Visual Studio Code și verificat în browser: pagina s-a afișat corect, iar designul a fost evaluat. După personalizarea manuală, a fost testat efectul hover. Nu sunt declarate ca realizate teste suplimentare de accesibilitate, compatibilitate între browsere sau publicare online.
+Site-ul a fost testat atât pe calculator, cât și pe telefon, utilizând Google Chrome. Au fost verificate afișarea paginii, navigarea între secțiuni, meniul responsive, imaginile, cardurile și funcționalitatea Dark Mode.
+
+După personalizarea manuală, a fost verificat efectul hover al cardurilor pe calculator, observându-se ridicarea acestora și apariția umbrei violet luminoase.
+
+Site-ul a fost publicat cu succes prin GitHub Pages și a fost accesat și verificat de pe telefon.
 
 ## Cum se rulează local
 
@@ -97,6 +104,16 @@ Site-ul este static și nu necesită instalarea unor dependențe.
 
 Ghid oficial: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
 
+## Site publicat
+
+Proiectul Node Ninjas este disponibil online prin GitHub Pages:
+
+**https://lavilapustea24.github.io/NodeNinjas/**
+
+Repository-ul cu fișierele proiectului, promptul inițial și capturile de ecran este disponibil la:
+
+**https://github.com/lavilapustea24/NodeNinjas**
+
 ## Limitări și îmbunătățiri viitoare
 
 - Formularul de contact este numai demonstrativ și nu poate expedia mesaje.
@@ -105,4 +122,4 @@ Ghid oficial: https://docs.github.com/en/pages/getting-started-with-github-pages
 
 ## Concluzie
 
-Proiectul ilustrează folosirea AI ca instrument de sprijin în dezvoltarea web: cerințele au fost planificate, codul a fost generat și analizat, iar o modificare vizuală a fost realizată și testată manual. Site-ul rămâne ușor de continuat și de publicat ca pagină statică.
+Proiectul ilustrează folosirea AI ca instrument de sprijin în dezvoltarea web: cerințele au fost planificate, codul a fost generat și analizat, iar o modificare vizuală a fost realizată și testată manual. Site-ul rămâne ușor de continuat și de modificat ca pagină statică.
