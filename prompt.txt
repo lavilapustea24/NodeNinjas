@@ -1,0 +1,86 @@
+Vreau să modernizezi un site web existent, numit **Node Ninjas**, folosind arhiva ZIP pe care am atașat-o. Te rog să analizezi mai întâi fișierele proiectului, apoi să realizezi o versiune nouă, cu un design modern, futurist și responsive, respectând cerințele de mai jos.
+
+### 1. Descrierea proiectului
+
+Node Ninjas este o echipă formată din patru studente ale Facultății de Științe Economice și Gestiunea Afacerilor (FSEGA), specializarea Informatică Economică: Lăpuștea Lavinia, Oltean Andreea, Gârbovan Ana-Maria și Gherghel Anamaria.
+
+Scopul site-ului este prezentarea echipei, a personalității fiecărei membre, a intereselor și a activităților universitare, într-o manieră atractivă și creativă.
+
+Publicul țintă este format din studenți, profesori și persoane interesate de tehnologie, programare și proiecte universitare.
+
+### 2. Folosirea proiectului existent
+
+Utilizează codul și imaginile din arhiva NodeNinjas.zip drept punct de plecare. Păstrează informațiile reale despre membrele echipei, hobby-urile, mâncărurile preferate și calitățile lor.
+
+Poți reformula și scurta textele pentru a le face mai naturale și mai atractive, fără să modifici informațiile esențiale sau să inventezi date despre echipă.
+
+Păstrează logo-ul original Node Ninjas.
+
+### 3. Structura paginii
+
+Pagina trebuie să conțină următoarele secțiuni:
+
+- **Header:** logo-ul, numele echipei, un meniu de navigare și un buton pentru Dark Mode.
+- **Hero – Meet the Ninjas:** o secțiune introductivă spectaculoasă, cu titlu mare, prezentare scurtă, identitatea vizuală Ninja și un buton care conduce către prezentarea echipei.
+- **About Us:** prezentarea echipei, a facultății și a motivației pentru realizarea proiectului.
+- **Meet the Team:** patru carduri individuale pentru membrele echipei, cu nume, hobby, mâncare preferată și o calitate personală, folosind informațiile din site-ul original.
+- **Projects & Skills:** prezentarea activităților și abilităților legate de dezvoltarea web, fără inventarea unor proiecte sau realizări care nu sunt confirmate.
+- **Fun Facts:** păstrează tabelul original cu hobby-urile și mâncărurile preferate, dar modernizează-l vizual.
+- **Ninja Gallery:** galerie decorativă care folosește logo-ul existent și elemente grafice inspirate de universul Ninja și de tehnologie.
+- **Contact:** formular demonstrativ cu nume, e-mail și mesaj, cu etichete și validarea câmpurilor.
+- **Footer:** numele echipei, membrele acesteia, informații relevante și navigare rapidă.
+
+### 4. Stilul vizual
+
+Doresc un design care combină estetica pastel cu un stil futurist, inspirat de tehnologie și universul Ninja.
+
+Folosește violet închis, lavandă, roz pastel, roz neon și accente luminoase, într-o combinație echilibrată.
+
+Pagina trebuie să aibă gradienți moderni, carduri cu colțuri rotunjite, umbre discrete, tipografie lizibilă și un aspect creativ, dar îngrijit.
+
+Cardurile membrilor pot include ilustrații stilizate inspirate de țestoase Ninja feminine, pentru a evidenția personalitatea echipei. Nu este necesar să recreezi personaje oficiale.
+
+Dacă nu poți furniza imaginile decorative ca fișiere locale, creează elemente grafice folosind CSS sau utilizează doar imaginile disponibile în arhivă. Evită linkurile către imagini inexistente.
+
+### 5. Funcționalități
+
+- Meniu de navigare responsive, inclusiv pentru telefon.
+- Dark Mode funcțional, realizat cu JavaScript simplu.
+- Tranziții și animații discrete.
+- Efecte vizuale la interacțiunea cu butoanele și cardurile.
+- Galerie adaptabilă la dimensiunea ecranului.
+- Formular demonstrativ cu validare HTML, fără backend.
+- Navigare funcțională între secțiuni.
+
+Pentru cardurile membrilor, folosește inițial efecte hover simple. Doresc să adaug ulterior manual o personalizare suplimentară, ca etapă separată a proiectului universitar.
+
+### 6. Cerințe tehnice
+
+Folosește HTML5 semantic, CSS3, Flexbox și Media Queries. Pagina trebuie să fie responsive pe desktop, tabletă și telefon.
+
+Utilizează elemente semantice precum header, nav, main, section, article și footer.
+
+Organizează codul în fișiere separate: index.html, style.css și script.js.
+
+Nu utiliza Bootstrap, Tailwind, React sau alte framework-uri. Folosește doar HTML, CSS și JavaScript simplu, în măsura necesară funcționalităților.
+
+Formularul trebuie să fie prezentat clar ca demonstrativ, fără simularea unei trimiteri reale de mesaje.
+
+Site-ul trebuie să poată fi publicat gratuit prin GitHub Pages, folosind căi relative pentru fișierele locale.
+
+Respectă accesibilitatea de bază: contrast lizibil, texte alternative pentru imagini, etichete pentru formular și navigare utilizabilă cu tastatura.
+
+### 7. Rezultatul dorit
+
+Te rog să îmi oferi:
+
+1. Proiectul complet, într-o arhivă ZIP, cu toate fișierele necesare.
+2. Codul integral al fișierelor HTML, CSS și JavaScript, afișat și în conversație.
+3. Explicații despre elementele semantice HTML5 folosite.
+4. Explicații privind Flexbox și Media Queries.
+5. Instrucțiuni de testare în browser și publicare pe GitHub Pages.
+6. O scurtă analiză a primei versiuni, inclusiv o posibilă îmbunătățire pe care o pot realiza manual.
+
+Păstrează codul clar, organizat și ușor de înțeles pentru un proiect universitar. Prioritizează funcționalitatea și respectarea cerințelor tehnice, dar acordă atenție și aspectului vizual.
+
+Doresc o versiune inițială completă a site-ului, pe care o voi analiza și personaliza ulterior.
